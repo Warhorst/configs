@@ -1,6 +1,7 @@
 theme = "solarized_light"
 
 [editor]
+auto-format = true
 bufferline = "always"
 line-number = "relative"
 
@@ -18,3 +19,6 @@ select = "block"
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
 mode.select = "SELECT"
+
+[editor.file-picker]
+hidden = false
