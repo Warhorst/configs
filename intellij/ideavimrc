@@ -312,7 +312,7 @@ nnoremap U <C-R>
 set gdefault
 noremap s :s/
 noremap S <Esc>:echo "Not supported in VIM"<CR>gsgv
-noremap <A-s> <Esc>:echo "Not supported in VIM"<CR>gsgv
+" noremap <A-s> <Esc>:echo "Not supported in VIM"<CR>gsgv
 noremap <A-_> <Esc>:echo "Not supported in VIM"<CR>gsgv
 noremap & <Esc>:echo "Not supported in VIM"<CR>gsgv
 noremap _ <Esc>:echo "Not implemented"<CR>gsgv
@@ -1516,7 +1516,7 @@ xmap & <Action>(StringManipulation.AlignSelections)
 " Selection manipulation
 noremap , <Esc><Esc>
 
-xmap <A-s> <Action>(EditorAddCaretPerSelectedLine)
+" xmap <A-s> <Action>(EditorAddCaretPerSelectedLine)
 nmap <A-o> <Action>(EditorSelectWord)
 xmap <A-o> <Action>(EditorSelectWord)
 nmap <A-Up> <Action>(EditorSelectWord)
